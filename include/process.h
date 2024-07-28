@@ -1,3 +1,5 @@
+#ifndef PROCESS_H
+#define PROCESS_H
 #include "Map.h"
 class Process
 {
@@ -8,3 +10,5 @@ public:
 private:
     Map map;
 };
+
+#endif
